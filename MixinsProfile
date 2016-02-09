@@ -1,0 +1,22 @@
+//Mixins Exercise
+
+var userPro ={
+  name: (),
+  address: (),
+  city: (),
+  state: (),
+  zipcode: (),
+  avatar: (),
+}
+
+function getProfileUpdate (){
+  console.log ("Please update your profile.");
+  return value;
+}
+
+
+function updateProfile (){
+  userPro = getProfileUpdate.value
+}
+
+console.log userPro()
